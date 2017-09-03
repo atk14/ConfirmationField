@@ -13,7 +13,7 @@ Just use the Composer:
     cd path/to/your/atk14/project/
     composer require atk14/confirmation-field dev-master
 
-Optionally you can create a symlink:
+Optionally you can create a symlink from vendor to your app:
 
     ln -s ../../vendor/atk14/confirmation-field/src/app/fields/confirmation_field.php app/fields/confirmation_field.php
 
@@ -23,10 +23,12 @@ Usage
 In a form:
 
     <?php
+    // file: app/forms/orders/create_new_form.php
     class CreateNewForm extends ApplicationForm {
 
       function set_up(){
-        // ...
+
+        // fileds...
 
         $this->add_field("confirmation", new ConfirmationField([
           "label" => _("I agree with terms and conditions"),
@@ -47,4 +49,6 @@ In a form:
 License
 -------
 
-CountryField is free software distributed [under the terms of the MIT license](http://www.opensource.org/licenses/mit-license)
+ConfirmationField is free software distributed [under the terms of the MIT license](http://www.opensource.org/licenses/mit-license)
+
+<!-- vim: et:ts=2 -->

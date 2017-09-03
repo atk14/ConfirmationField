@@ -2,7 +2,7 @@
         "name": "atk14/confirmation-field",
         "type": "library",
         "description": "ConfirmationField is a form field for Atk14 applications. It's like the BooleanField (checkbox) but the ConfirmationField must be ticked.",
-        "keywords": ["", "atk14", "forms", "field"],
+        "keywords": ["atk14", "forms", "field", ""confirmation"],
         "homepage": "https://github.com/atk14/ConfirmationField",
         "license": ["MIT"],
         "authors": [

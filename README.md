@@ -15,7 +15,7 @@ Just use the Composer:
 
 Optionally you can create a symlink from vendor to your app:
 
-    ln -s ../../vendor/atk14/confirmation-field/src/app/fields/confirmation_field.php app/fields/confirmation_field.php
+    ln -s ../../vendor/atk14/confirmation-field/src/confirmation_field.php app/fields/confirmation_field.php
 
 Usage
 -----

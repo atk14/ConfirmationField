@@ -11,7 +11,7 @@ Installation
 Just use the Composer:
 
     cd path/to/your/atk14/project/
-    composer require atk14/confirmation-field dev-master
+    composer require atk14/confirmation-field
 
 Optionally you can create a symlink from vendor to your app:
 
